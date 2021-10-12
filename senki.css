@@ -314,5 +314,37 @@ select.topic{
     justify-content: center;
   }
 
+    .dropdown{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .dropdown select{
+      align-self: flex-end;
+      margin-right: 10px;
+    }
+
+    .topbtns{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+
+}
+
+@media (max-width: 1040px){
+  .purple-tag{
+    padding-left: 5px;
+  }
+
+  .pink-tag{
+    padding-right: 5px;
+  }
+  .date p{
+    font-size: 13px;
+  }
+
 
 }
